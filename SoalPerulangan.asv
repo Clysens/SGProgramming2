@@ -1,0 +1,9 @@
+disp('SOAL PERULANGAN')
+
+a = input('nilai a = ')
+pangkat = input('pangkat = ')
+total = a
+for(i=0 : 1 : pangkat)
+    total = total + a
+    disp('hasil = '+total)
+end;
